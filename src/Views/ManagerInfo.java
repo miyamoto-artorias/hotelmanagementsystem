@@ -4,10 +4,8 @@
  * and open the template in the editor.
  */
 package Views;
-import Controllers.DbUtils;
-import Controllers.DAO.EmployeeDAO;
+import DAO.EmployeeDAO;
 
-import java.awt.BorderLayout;
 import java.awt.*;
 
 import javax.swing.JFrame;

@@ -1,6 +1,5 @@
 package Views;
 
-import java.awt.BorderLayout;
 import java.awt.*;
 import java.awt.EventQueue;
 import java.sql.*;    
@@ -11,7 +10,7 @@ import java.awt.event.*;
 import java.awt.event.ActionEvent;
 import java.util.List;
 
-import Controllers.DAO.CheckOutDAO;
+import DAO.CheckOutDAO;
 
 public class CheckOut extends JFrame{
     private JPanel contentPane;

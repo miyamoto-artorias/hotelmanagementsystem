@@ -6,9 +6,6 @@ import java.awt.EventQueue;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.SQLException;
 import java.util.List;
 
 import javax.swing.JButton;
@@ -19,8 +16,7 @@ import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.border.EmptyBorder;
 
-import Controllers.DbUtils;
-import Controllers.DAO.DriverDAO;
+import DAO.DriverDAO;
 
 public class PickUp extends JFrame {
     private JPanel contentPane;

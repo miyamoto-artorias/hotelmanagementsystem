@@ -4,8 +4,7 @@ import java.awt.*;
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 
-import Controllers.DbUtils;
-import Controllers.DAO.CustomerDAO;
+import DAO.CustomerDAO;
 
 import java.sql.*;
 import java.awt.event.ActionListener;

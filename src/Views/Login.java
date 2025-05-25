@@ -3,8 +3,8 @@ package Views;
 import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
-import java.sql.*;
-import Controllers.DAO.LoginDAO;
+
+import DAO.LoginDAO;
 
 public class Login extends JFrame implements ActionListener {
 

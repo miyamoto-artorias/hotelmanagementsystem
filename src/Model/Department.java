@@ -4,8 +4,7 @@ import java.awt.*;
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 
-import Controllers.DbUtils;
-import Controllers.DAO.DepartmentDAO;
+import DAO.DepartmentDAO;
 import Views.Reception;
 
 import java.sql.*;

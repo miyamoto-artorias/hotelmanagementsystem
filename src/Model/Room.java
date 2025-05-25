@@ -1,6 +1,5 @@
 package Model;
-import Controllers.DbUtils;
-import Controllers.DAO.RoomDAO;
+import DAO.RoomDAO;
 import Views.Reception;
 
 import java.awt.*;
@@ -61,17 +60,6 @@ public class Room extends JFrame {
         
         // Initialize with data automatically
         loadRoomData();
-
-        JButton btnRefreshData = new JButton("Refresh Data");
-        btnRefreshData.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                loadRoomData();
-            }
-        });
-        btnRefreshData.setBounds(100, 470, 120, 30);
-        btnRefreshData.setBackground(Color.BLACK);
-        btnRefreshData.setForeground(Color.WHITE);
-        contentPane.add(btnRefreshData);
 
         JButton btnNewButton = new JButton("Back");
         btnNewButton.addActionListener(new ActionListener() {

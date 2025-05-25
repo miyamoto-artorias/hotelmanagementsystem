@@ -3,8 +3,8 @@ package Model;
 import java.awt.*;
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
-import Controllers.DbUtils;
-import Controllers.DAO.EmployeeDAO;
+
+import DAO.EmployeeDAO;
 
 import Views.Reception;
 import java.sql.*;
