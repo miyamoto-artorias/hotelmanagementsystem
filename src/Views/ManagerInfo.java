@@ -57,24 +57,6 @@ public class ManagerInfo extends JFrame {
 		table.setBounds(0, 34, 1000, 450);
 		contentPane.add(table);
 		
-		JButton btnLoadData = new JButton("Refresh Data");
-		btnLoadData.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				try {
-                    EmployeeDAO employeeDAO = new EmployeeDAO();
-                    employeeDAO.loadManagerDataToTable(table);
-                }
-				catch(Exception e1){
-					e1.printStackTrace();
-				}
-			}
-			
-		});
-		btnLoadData.setBounds(350, 500, 120, 30);
-                btnLoadData.setBackground(Color.BLACK);
-                btnLoadData.setForeground(Color.WHITE);
-		contentPane.add(btnLoadData);
-		
 		JButton btnExit = new JButton("Back");
 		btnExit.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -82,7 +64,7 @@ public class ManagerInfo extends JFrame {
                                 setVisible(false);
 			}
 		});
-		btnExit.setBounds(510, 500, 120, 30);
+		btnExit.setBounds(450, 500, 120, 30);
                 btnExit.setBackground(Color.BLACK);
                 btnExit.setForeground(Color.WHITE);
 		contentPane.add(btnExit);

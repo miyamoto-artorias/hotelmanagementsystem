@@ -67,16 +67,6 @@ public class Department extends JFrame {
         // Load data automatically
         loadDepartmentData();
         
-        JButton btnRefreshData = new JButton("Refresh Data");
-        btnRefreshData.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                loadDepartmentData();
-            }
-        });
-        btnRefreshData.setBackground(Color.BLACK);
-        btnRefreshData.setForeground(Color.WHITE);
-        panelBottom.add(btnRefreshData);
-
         JButton btnNewButton_1 = new JButton("Back");
         btnNewButton_1.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {

@@ -68,16 +68,6 @@ public class Employee extends JFrame {
         
         // Load data automatically
         loadEmployeeData();
-        
-        JButton btnRefreshData = new JButton("Refresh Data");
-        btnRefreshData.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                loadEmployeeData();
-            }
-        });
-        btnRefreshData.setBackground(Color.BLACK);
-        btnRefreshData.setForeground(Color.WHITE);
-        panelBottom.add(btnRefreshData);
 
         JButton btnExit = new JButton("Back");
         btnExit.addActionListener(new ActionListener() {

@@ -54,18 +54,6 @@ public class CustomerInfo extends JFrame {
         btnExit.setForeground(Color.WHITE);
         contentPane.add(btnExit);
 
-        JButton btnLoadData = new JButton("Refresh Data");
-        btnLoadData.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent arg0) {
-                CustomerDAO customerDAO = new CustomerDAO();
-                customerDAO.loadCustomerDataToTable(table);
-            }
-        });
-        btnLoadData.setBounds(300, 510, 120, 30);
-        btnLoadData.setBackground(Color.BLACK);
-        btnLoadData.setForeground(Color.WHITE);
-        contentPane.add(btnLoadData);
-
         JLabel lblId = new JLabel("ID");
         lblId.setBounds(31, 11, 46, 14);
         contentPane.add(lblId);
