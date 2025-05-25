@@ -1,0 +1,13 @@
+# Run Configuration File for IntelliJ IDEA
+# Save this to .idea/runConfigurations/Run_With_MySQL.xml
+
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Run With MySQL" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="Views.Login" />
+    <module name="Hotel Management System" />
+    <option name="VM_PARAMETERS" value="-Djava.class.path=&quot;$PROJECT_DIR$/lib/mysql-connector-j-8.3.0.jar;$PROJECT_DIR$/src;$PROJECT_DIR$/bin&quot;" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
